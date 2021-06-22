@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+#tariffs {
+    border-collapse: collapse;
+    text-align: center;
+}
+#tariffs td {
+    padding: 10px 20px;
+
+}
+
+#tariffs tbody tr:nth-child(odd) td:nth-child(odd) {
+    background-color: beige;
+}
+#tariffs tbody tr:nth-child(odd) td:nth-child(even) {
+background-color:rebeccapurple;
+}
+#tariffs tbody tr:nth-child(even) td:nth-child(odd) {
+    background-color: red;
+}
+#tariffs tbody tr:nth-child(even) td:nth-child(even) {
+    background-color: gold;
